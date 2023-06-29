@@ -1,0 +1,112 @@
+html {
+    background: white;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    background: white;
+    padding-left: 8%;
+    padding-top: 8%;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+    width: 290px;
+    height: 350px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.suv {
+    background: hsl(184, 100%, 22%);
+    width: 290px;
+    height: 350px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    width: 290px;
+    height: 350px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+p {
+    color: white;
+}
+
+button {
+    border-radius: 30px;
+    width: 100px;
+    border: solid white 1px;
+    color: white;
+    background: transparent;
+    margin-top: 50px;
+    height: 40px;
+}
+
+p {
+    color: rgb(210, 210, 210);
+}
+
+P:hover {
+    color: rgb(147, 147, 147);
+    transition: 2s;
+}
+
+button:hover {
+    color: rgb(147, 147, 147);
+    transition: 2s;
+    border:  solid black 1px;
+}
+
+img {
+    margin-right: 160px;
+    margin-top: 30px;
+}
+
+img:hover {
+    margin-left: 200px;
+    transition: 6s;
+}
+
+h1 {
+    color: white;
+    padding-right: 130px;
+}
+
+@media (max-width:550px) {
+    main {
+    display: grid;
+    background: white;
+    padding-left: 8%;
+    padding-top: 8%;
+    }
+
+    .a {
+        background: white;
+        border-radius: 30px;
+        color: hsl(31, 77%, 52%);
+    }
+
+    .b {
+        background: white;
+        border-radius: 30px;
+        color: hsl(184, 100%, 22%);
+    }
+
+    .c {
+        background: white;
+        border-radius: 30px;
+        color: hsl(179, 100%, 13%);
+    }
+
+    button:hover {
+        background: transparent;
+        color: white;
+        border: none;
+    }
+}
