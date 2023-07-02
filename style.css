@@ -2,6 +2,11 @@ html {
     background: white;
 }
 
+body{
+    font-family:'Lexend Deca', sans-serif;
+    /* Added font family to your work */
+}
+
 main {
     padding: 30px;
     display: flex;
